@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem 'pry-rails'
+gem 'turbolinks'
+gem "slim-rails"
+gem "listen"
+gem "bootsnap", require: false
+gem "pg"
+gem "rails"
+gem "sorcery"

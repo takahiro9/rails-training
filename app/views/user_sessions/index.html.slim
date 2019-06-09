@@ -1,0 +1,7 @@
+h1 Sessions#new
+= form_with model: @user, method: :delete do
+  div
+    = submit_tag "Logout"
+
+div ようこそ #{@user.email} さん
+= link_to "to user view", users_index_path
