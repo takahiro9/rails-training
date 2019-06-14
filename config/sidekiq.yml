@@ -1,0 +1,5 @@
+:logfile: log/sidekiq.log
+
+:schedule:
+  HelloWorld:
+    every: '1s'   # Runs once per minute

@@ -13,3 +13,7 @@ gem "bootsnap", require: false
 gem "pg"
 gem "rails"
 gem "sorcery"
+gem 'sinatra', require: false
+gem 'sidekiq'
+gem 'sidekiq-failures'
+gem 'sidekiq-scheduler'
